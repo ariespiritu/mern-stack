@@ -3,8 +3,8 @@ import React, { PropTypes } from 'react'
 const Home = React.createClass({
   render() {
     return (
-      <div>
-        <h1> Hello World! </h1>
+      <div className="container">
+        <h2 className="text-center"> HHH </h2>
       </div>
     )
   }

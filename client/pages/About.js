@@ -4,8 +4,8 @@ class About extends Component {
 
   render() {
     return (
-      <div>
-        <h1> About </h1>
+      <div className="container">
+        <h3 className="text-center"> About </h3>
       </div>
     )
   }

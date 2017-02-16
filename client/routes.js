@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, IndexRoute, router, browserHistory } from 'react-router'
 
 // Layouts
-import Main                     from './layouts/Main'
+import Main                     from './pages/layouts/Main'
 
 // Pages
 import Home                     from './pages/Home'
@@ -10,8 +10,9 @@ import About                    from './pages/About'
 
 export default(
   <Route>
-    <Route path='/'         component = {Main}>
-      <IndexRoute             component = {Home} />
-      <Route path='/about'         component = {About} />
+    <Route path='/' component={Main}>
+      <IndexRoute component={Home} />
+      <Route path='/about' component={About} />
+    </Route>
   </Route>
 )

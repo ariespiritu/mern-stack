@@ -25,12 +25,26 @@ models()
 // Initialize app
 const app = express()
 
-// Allow cors
+if(!process.env.NODE_ENV ||process.env.NODE_ENV === 'development') {
+  console.log('Process: ',process.env.NODE_ENV)
+  const webpack = require('webpack')
+  const webpackMiddleware = require('webpack-dev-middleware')
+  const webpackConfig = require('../webpack.config')
+
+  const compiler = webpack(webpackConfig)
+
+  // Hot reloading
+  app.use(
+    webpackMiddleware(compiler, {
+      publicPath: webpackConfig.output.publicPath,
+      noInfo: true
+    })
+  )
+}
+
+app.use(express.static('client'))
 app.use(cors())
-
-// User morgan for logging
 app.use(logger('dev'))
-
 app.use(bodyParser.json({ limit: '10mb', parameterLimit: 10000 }))
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: true, parameterLimit: 10000 }))
 app.use(cookieParser())

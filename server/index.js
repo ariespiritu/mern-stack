@@ -25,8 +25,7 @@ models()
 // Initialize app
 const app = express()
 
-if(!process.env.NODE_ENV ||process.env.NODE_ENV === 'development') {
-  console.log('Process: ',process.env.NODE_ENV)
+if(!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
   const webpack = require('webpack')
   const webpackMiddleware = require('webpack-dev-middleware')
   const webpackConfig = require('../webpack.config')
@@ -37,8 +36,8 @@ if(!process.env.NODE_ENV ||process.env.NODE_ENV === 'development') {
   app.use(
     webpackMiddleware(compiler, {
       publicPath: webpackConfig.output.publicPath,
-      noInfo: true
-    })
+      noInfo: true,
+    }),
   )
 }
 

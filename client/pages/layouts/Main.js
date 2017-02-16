@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 
 class Main extends Component {
 
-  constructor() {
-    super()
-  }
-
-  componentDidUpdate() {
-    ReactDOM.findDOMNode(this).scrollTop = 0
+  componentWillMount() {
+    window.scrollTo(0, 0)
   }
 
   render() {

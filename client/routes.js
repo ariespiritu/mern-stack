@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, IndexRoute, router, browserHistory } from 'react-router'
+import { Route, IndexRoute } from 'react-router'
 
 // Layouts
 import Main                     from './pages/layouts/Main'
@@ -10,9 +10,9 @@ import About                    from './pages/About'
 
 export default(
   <Route>
-    <Route path='/' component={Main}>
+    <Route path="/" component={Main}>
       <IndexRoute component={Home} />
-      <Route path='/about' component={About} />
+      <Route path="/about" component={About} />
     </Route>
   </Route>
 )

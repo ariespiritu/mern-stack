@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 
 const Home = React.createClass({
-  render () {
+  render() {
     return (
       <div>
         <h1> Hello World! </h1>

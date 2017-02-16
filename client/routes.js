@@ -12,6 +12,6 @@ export default(
   <Route>
     <Route path='/'         component = {Main}>
       <IndexRoute             component = {Home} />
-      <Route path='/'         component = {About} />
+      <Route path='/about'         component = {About} />
   </Route>
 )

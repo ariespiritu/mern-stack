@@ -1,18 +1,18 @@
-var path = require('path')
-var webpack = require('webpack')
+var path = require('path');
+var webpack = require('webpack');
 
 var publicPath = '/'
 
 module.exports = {
   devtool: 'cheap-module-source-map',
-  entry: [
+  entry : [
     'babel-polyfill',
     path.join(__dirname, '/client/index.js')
   ],
   output: {
     path: publicPath,
     filename: '[name].bundle.js',
-    publicPath: publiPath,
+    publicPath: publicPath,
     sourceMapFilename: '[name].map'
   },
   module: {
@@ -22,9 +22,9 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query:
-          {
-            presets:['react']
-          }
+        {
+          presets:['react']
+        }
       }
     ]
   },

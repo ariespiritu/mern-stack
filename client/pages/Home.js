@@ -4,7 +4,7 @@ const Home = React.createClass({
   render() {
     return (
       <div className="container">
-        <h2 className="text-center"> HHH </h2>
+        <h4 className="text-center"> This will be the banner header text of the page that has a lot of meaning </h4>
       </div>
     )
   }

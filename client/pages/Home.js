@@ -4,7 +4,44 @@ const Home = React.createClass({
   render() {
     return (
       <div className="container">
-        <h4 className="text-center"> This will be the banner header text of the page that has a lot of meaning </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
       </div>
     )
   }

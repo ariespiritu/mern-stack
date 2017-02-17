@@ -4,7 +4,7 @@ const Footer = React.createClass({
   render() {
     return (
       <div className="my-footer">
-        <h5 className="text-center"> This the footer</h5>
+        <h5 className="text-center"> Footer</h5>
       </div>
     )
   }

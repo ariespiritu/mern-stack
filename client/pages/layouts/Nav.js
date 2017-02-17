@@ -5,7 +5,7 @@ const Nav = React.createClass({
     return (
       <nav className="navbar navbar-default navbar-fixed-top my-nav">
         <div className="container">
-          <h5 className="text-center"> This is the navigation bar </h5>
+          <h5 className="text-center"> Navigation bar </h5>
         </div>
       </nav>
     )

@@ -42,6 +42,7 @@ const Home = React.createClass({
         <h4 className="text-center"> Centered Header Text </h4>
         <h4 className="text-center"> Centered Header Text </h4>
         <h4 className="text-center"> Centered Header Text </h4>
+        <h4 className="text-center"> Centered Header Text </h4>
       </div>
     )
   }
